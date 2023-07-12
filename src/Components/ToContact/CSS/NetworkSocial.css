@@ -1,0 +1,21 @@
+#SocialMedia{
+    display: flex;
+}
+
+.o-IconSocialMedia{
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: gray;
+    margin: 0 0.5rem 0 0;  
+    justify-content: center;
+}
+
+.o-IconSocialMedia:hover{
+    background-color: var(--VerdBamboo);
+}
+
+.o-IconSocialMedia img{
+    width: 1.5rem;  
+    margin: 0.5rem;
+}

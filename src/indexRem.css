@@ -1,0 +1,56 @@
+/*Fuentes*/
+    /*phenomena*/
+@font-face{
+    font-family: 'phenomena2';
+    src: 
+        /*Mozilla */
+        url("./Fonts/Phenomena/WOFF/Phenomena-Regular.woff") format('woff'),
+        url("./Fonts/Phenomena/WOFF/Phenomena-Black.woff") format('woff'),
+        url("./Fonts/Phenomena/WOFF/Phenomena-Bold.woff") format('woff'),
+        url("./Fonts/Phenomena/WOFF/Phenomena-ExtraBold.woff") format('woff'),
+        url("./Fonts/Phenomena/WOFF/Phenomena-ExtraLight.woff") format('woff'),
+        url("./Fonts/Phenomena/WOFF/Phenomena-Light.woff") format('woff'),
+        url("./Fonts/Phenomena/WOFF/Phenomena-Thin.woff") format('woff'),
+
+        /*Otros*/
+        url("./Fonts/Phenomena/OTF/Phenomena-Regular.otf") format('otf'),
+        url("./Fonts/Phenomena/OTF/Phenomena-Black.otf") format('otf'),
+        url("./Fonts/Phenomena/OTF/Phenomena-Bold.otf") format('otf'),
+        url("./Fonts/Phenomena/OTF/Phenomena-ExtraBold.otf") format('otf'),
+        url("./Fonts/Phenomena/OTF/Phenomena-ExtraLight.otf") format('otf'),
+        url("./Fonts/Phenomena/OTF/Phenomena-Light.otf") format('otf'),
+        url("./Fonts/Phenomena/OTF/Phenomena-Thin.otf") format('otf');
+
+        
+}
+
+/*Gestión de colores*/
+:root{
+    --VerdBamboo: #05A535;
+    --VerdBambooOscure: #084F1A;
+    --MarronBamboo: #80582A;
+    --MarronBambooOscure: rgb(68, 46, 29);
+    --YellowBamboo: #AA9906;
+    --YellowBambooOscure: rgb(95, 88, 33);
+    --GrayBamboo: #56555A;
+    --GrayBambooOscure: rgb(55, 55, 58);
+    --GrayClare: #EFEFEF;
+    --GrayOscure: gray;
+    --Black: #000000;
+    --White: white;
+}
+
+body{
+    margin: 8vh 0 0 0;
+    font-family: 'phenomena2';
+    background-color: black;    
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1.2rem;
+}

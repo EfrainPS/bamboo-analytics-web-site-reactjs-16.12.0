@@ -1,0 +1,25 @@
+.o-FullContainerClients{
+    background-color: whitesmoke;
+    padding: 3rem 0;
+}
+
+.o-FullContainerClients h1{
+    color: grey;
+}
+
+.o-ImgContainerClients{
+    margin: 10vh 0;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-ImgContainerClients img{
+    height: 15vh;
+    margin: 0 5vw 5vh 5vw;
+}
+
+

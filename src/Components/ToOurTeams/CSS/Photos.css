@@ -1,0 +1,79 @@
+.o-PhotoTeam{
+    width: 24%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.ContainerImage{
+    width: 100%;
+}
+
+.o-PhotoTeam img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.o-PhotoTeam:hover{
+    filter: grayscale(0);
+}
+
+.o-TeamInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;  
+    background-color: rgb(68, 68, 68); 
+    color: whitesmoke;    
+    border: 1px black solid;
+}
+
+.o-TeamInformation h4{
+    margin: 1rem 0;
+}
+
+.o-ToAnimation{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    transition: 0.7s;
+}
+
+/*Para pantallas pequeñas*/
+@media (max-aspect-ratio: 1/1) {
+    .o-PhotoTeam{
+        display: flex;
+        width: 50%;
+        height: auto;
+        justify-content: left;
+        margin-bottom: 1rem;
+    }
+
+    .o-PhotoTeam img{
+        width: 100%;
+        height: auto;
+    }
+
+    .ContainerImage{
+        height: 100%;
+    }
+
+    .o-TeamInformation h4{
+        font-size: 1.1rem;
+    }
+}
+
+@media(min-width: 1920px){
+
+    .o-PhotoTeam{
+        width: 20%;    
+    }
+}

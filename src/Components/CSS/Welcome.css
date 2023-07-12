@@ -1,0 +1,130 @@
+.o-FullContainer{
+    background: url("https://images.pexels.com/photos/1268129/pexels-photo-1268129.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.o-LogoTipo{
+    width: 30vw;
+}
+
+.o-LogoTipo2{
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.o-Slogan{
+    width: 40vw;
+}
+
+#BloqueLogo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#BloqueSlogan{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Slogan{
+    color: white;
+    border: white 3px solid;
+    padding: 1rem;
+    width: 80%;
+    font-family: phenomena2;
+}
+
+.o-Bumb{
+    height: 60%;
+}
+
+.o-GifUp{
+    visibility: hidden;
+    filter: brightness(0) invert(1);
+}
+
+/*Para pantallas pequeñas*/
+@media (max-aspect-ratio: 1/1) {
+    .o-FullContainer{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #BloqueLogo{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #BloqueSlogan{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #Slogan{
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .o-LogoTipo{
+        height: 70%;
+        width: auto;
+        
+        margin-top: 5rem;
+    }
+
+    .o-LogoTipo2{
+        visibility: visible;
+        height: 50%;
+        width: auto;
+        
+        margin-top: 5rem;
+    }
+
+    .o-Slogan{
+        width: 80vw;
+        top: 68%;
+        left: auto;
+    }
+
+    .o-Bumb{
+        margin: 0;
+        height: 0;
+        visibility: hidden;
+    }
+
+    .o-GifUp{
+        visibility: visible;
+        position: absolute;
+        height: 2rem;
+        top: 90%
+    
+    }
+
+}

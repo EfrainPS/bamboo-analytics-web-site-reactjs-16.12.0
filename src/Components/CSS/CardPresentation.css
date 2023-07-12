@@ -1,0 +1,43 @@
+.o-CardPresentation{
+    background-color: var(--White);
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px var(--GrayOscure) solid;
+    color: var(--GrayOscure);
+    margin: 2rem 0;
+}
+
+.o-CardPresentation img{
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+#Image{
+    display: flex;
+    align-items: flex-start;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.o-CardPresentation h4{
+    margin-bottom: 0.1rem;
+}
+
+.o-CardPresentation h5{
+    margin: 0.5rem 0 1rem 0;
+}
+
+@media(max-width: 600px){
+    .o-CardPresentation{
+        width: 80vw; 
+    }
+}
+
+@media(min-width: 601px) and (max-width: 1200px){
+    .o-CardPresentation{
+        width: 35vw; 
+    }
+}

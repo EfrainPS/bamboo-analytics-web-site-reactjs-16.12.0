@@ -1,0 +1,36 @@
+.o-CopyRContainer{
+    width: 100%;
+    background-color: var(--Black);
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+
+}
+
+.o-CopyRContainer h6{
+    margin: 0;
+    color: white;
+    font-weight: normal;
+}
+
+.o-LogoB{
+    height: 3rem;
+    margin: 0 0 1rem 0;
+}
+
+.o-InfoContactCopy{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+}
+
+.o-InfoContactCopy h5{
+    margin: 0.5rem;
+    font-weight: normal;
+}

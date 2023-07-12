@@ -1,0 +1,44 @@
+.o-FullContainerWA{
+    background-color: white;
+    
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-FullContainerWA strong{
+    color: var(--VerdBambooOscure);
+}
+
+.o-FullContainerWA h1{
+    color: grey;
+}
+
+.o-FullContainerWA p{
+    padding: 0 8vw;
+    color: grey;
+}
+
+.ImgCarousel{
+    height: 70vh;
+}
+
+
+/*Para pantallas pequeñas*/
+@media (max-width: 800px){
+    .o-FullContainerWA{
+        min-height: auto;
+        padding: 3rem 0;
+    }
+
+    .o-FullContainerWA p{
+        text-align: justify;
+    }
+
+    .ImgCarousel{
+        height: auto;
+        width: 100vw;
+    }
+}

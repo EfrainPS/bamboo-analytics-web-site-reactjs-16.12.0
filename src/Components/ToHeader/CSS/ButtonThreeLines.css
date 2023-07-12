@@ -1,0 +1,24 @@
+.o-MenuBotton{
+    background-color: var(--VerdBambooOscure);
+    width: 3rem;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem 0.7rem;
+    border: none;
+}
+
+#o-Lines{
+    width: 1.6rem;
+    height: 15%;
+    background: white;
+}
+
+@media(max-height: 550px){
+
+    .o-MenuBotton{
+        height: 60PX;
+    }
+
+}

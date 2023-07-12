@@ -1,0 +1,24 @@
+.o-FullContainerOurTeam{
+    background-color: white;
+    padding-top: 3rem;
+}
+
+.o-FullContainerOurTeam h1{
+    color: gray;
+}
+
+.o-ContainerPhotoTeam{
+    width: 100%;
+    background-color: var(--White);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Para pantallas pequeñas*/
+@media (max-aspect-ratio: 1/1) {
+    .o-ContainerPhotoTeam{
+        flex-direction: row;
+    }
+}

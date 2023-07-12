@@ -1,0 +1,29 @@
+.o-SideNavbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 65%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right:0;
+
+    background-color: lightgray;
+    
+    z-index: 200;
+
+    transform: translateX(200%);
+    transition: transform 0.3s ease-out
+}
+
+.o-SideNavbar.open{
+    transform: translateX(0);
+}
+
+.o-SideNavbar .o-Sheet{
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem 0 ;
+    color: lightgray;
+}

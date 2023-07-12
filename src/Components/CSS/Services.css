@@ -1,0 +1,25 @@
+.o-FullContainerServices{
+    height: auto;
+
+    padding: 3rem 0;
+
+    background-color: white;
+}
+
+.o-FullContainerServices h1{
+    color: grey;
+}
+
+.o-Card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.o-ContainerCardService{
+    cursor: pointer;
+    margin: 1rem 1rem; 
+    min-height: auto; 
+}

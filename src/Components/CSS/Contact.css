@@ -1,0 +1,137 @@
+.o-FullContainerContact{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 2rem 10vw; 
+}
+
+.o-FullContainerContact h1, h2{
+    color: gray;
+}
+
+.o-FullContainerContact p{
+    color: var(--GrayOscure); 
+    margin-top: 0;
+}
+
+#o-ContainerContact{
+    display: flex;
+    flex-direction: row;
+}
+
+.o-FormContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 2rem;
+}
+
+.o-ContainerText{
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
+    font-family: 'Archivo Narrow', sans-serif;
+    border: 0.05rem var(--GrayOscure) solid;
+}
+
+.o-ContainerMessage{
+    width: 100%;
+    height: 5rem;
+    margin-top: 0.3rem;
+    font-family: 'Archivo Narrow', sans-serif;
+    border: 0.05rem var(--GrayOscure) solid;
+}
+
+.o-ButtonSend{
+    margin: 1rem 0 0 0;
+    padding: 1rem 6rem 1rem 6rem;
+    border: none;
+    background-color: var(--VerdBambooOscure);
+    color: var(--White);
+    font-family: 'Archivo Narrow', sans-serif;
+    box-shadow: 10px 10px 9px -6px rgba(0,0,0,0.51);
+}
+
+.o-ButtonSend:hover{
+    background-color: var(--VerdBamboo);
+}
+
+#o-PaperPlane{
+    height: 1.5rem;
+}
+
+.o-TermAndConditions{
+    margin: 1rem 0 0 0;
+}
+
+.o-TermAndConditions label{
+    color: var(--VerdBambooOscure);
+}
+
+.o-TermAndConditions a{
+    color: var(--VerdBambooOscure);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.o-TermAndConditions a:hover{
+    color: var(--VerdBamboo);
+}
+
+.o-InfoContactUs{
+    width: 100%;
+    padding: 2vw 6vw;
+}
+
+/*Para pantallas pequeñas*/
+@media (max-width: 800px) {
+
+    .o-FullContainerContact{
+        padding: 0 1rem;
+    }
+
+    .o-FullContainerContact p{
+        text-align: center;
+    }
+    
+    #o-ContainerContact{
+        flex-direction: column;
+    }
+
+    .o-FormContainer{
+        background-color: transparent;
+        padding: 0;
+    } 
+
+    .o-InfoContactUs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        margin-bottom: 4rem;
+    }
+
+    .o-InfoContact{
+        flex-direction: column;
+    }
+
+    .o-Group1{
+        flex-direction: column;
+    }
+
+    .o-ContactInformation{
+        flex-direction: column;
+    }
+
+    .o-ContainerText{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+}

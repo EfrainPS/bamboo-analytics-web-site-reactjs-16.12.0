@@ -1,0 +1,24 @@
+[
+    {
+        "Submit": "Submit",
+        "Pages":[
+            {
+                "Page": "Home",
+                "URL": "/"
+            },
+            {
+                "Page": "About us?",
+                "URL": "/Enterprise"
+            },
+            {
+                "Page": "Blog",
+                "URL": "/Blog"
+            },
+            {
+                "Page": "Contact us",
+                "URL": "#Contact"
+            }
+        ]
+        
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "Submit": "Enviar",
+        "Pages":[
+            {
+                "Page": "Inicio",
+                "URL": "/"
+            },
+            {
+                "Page": "¿Quiénes somos?",
+                "URL": "/Enterprise"
+            },
+            {
+                "Page": "Blog",
+                "URL": "/Blog"
+            },
+            {
+                "Page": "Contáctanos",
+                "URL": "#Contact"
+            }
+        ]
+        
+    }
+]

@@ -1,0 +1,66 @@
+{
+  "name": "bambooanalytics",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3000",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.4.1",
+    "commentbox.io": "^2.0.0",
+    "google-map-react": "^1.1.5",
+    "google-maps-react": "^2.0.2",
+    "moment": "^2.24.0",
+    "nodemailer": "^6.3.1",
+    "react": "^16.12.0",
+    "react-accordeon": "^1.1.1",
+    "react-awesome-modal": "^2.0.5",
+    "react-awesome-slider": "^2.2.1",
+    "react-bootstrap": "^1.0.0",
+    "react-cardstack": "^1.1.0",
+    "react-dom": "^16.12.0",
+    "react-flags-select": "^1.1.10",
+    "react-gooey-nav": "^2.0.0",
+    "react-html-email": "^3.0.0",
+    "react-mail-form": "^2.0.2",
+    "react-moment": "^0.9.7",
+    "react-pagination-library": "^0.1.14",
+    "react-popup": "^0.10.0",
+    "react-render-html": "^0.6.0",
+    "react-responsive-modal": "^4.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-router-hash-link": "^1.2.2",
+    "react-sanfona": "^1.4.0",
+    "react-scripts": "^3.4.3",
+    "react-scrollchor": "^6.0.0",
+    "react-slick": "^0.25.2",
+    "react-switch": "^5.0.1",
+    "reactjs-popup": "^1.5.0",
+    "reactstrap": "^8.1.1",
+    "rodal": "^1.7.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "10.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
